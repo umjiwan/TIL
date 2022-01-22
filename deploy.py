@@ -37,10 +37,12 @@ for str_date in str_date_list:
 
 before_year = ""
 
+
 with open("README.md", "a") as file:
     for set_post_name in set_post_name_list:
-        title = set_post_name[11:-3].replace("-", " ")
         date  = set_post_name[5:10].replace("-", ". ")
+        with open(f"post/{set_post_name}", "r") as md_file:
+            title = md_file.readline()[2:]
         if before_year != set_post_name[:4]:
             before_year = set_post_name[:4]
             file.write(f"\n## {before_year}<br>\n")
