@@ -1,4 +1,3 @@
-from audioop import reverse
 import os
 
 start = "# 유엘 개발일지 - TIL\n\
