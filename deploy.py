@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from audioop import reverse
 import os
 
