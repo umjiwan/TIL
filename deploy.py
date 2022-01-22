@@ -44,7 +44,7 @@ with open("README.md", "a") as file:
         if before_year != set_post_name[:4]:
             before_year = set_post_name[:4]
             file.write(f"\n## {before_year}<br>\n")
-        file.write(f'<a href="https://github.com/umjiwan/TIL/blob/main/post/{set_post_name}">{title}</a><br>\n')
+        file.write(f'<a style="color:white" href="https://github.com/umjiwan/TIL/blob/main/post/{set_post_name}">{title}</a><br>\n')
 
 os.system("git add .")
 os.system("git commit -m \"Auto Upload\"")
