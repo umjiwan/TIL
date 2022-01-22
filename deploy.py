@@ -46,8 +46,7 @@ with open("README.md", "a") as file:
             before_year = set_post_name[:4]
             file.write(f"\n## {before_year}<br>\n")
 
-        file.write(f'\
-                        <a href="https://github.com/umjiwan/TIL/blob/main/post/{set_post_name}">{title}</a>\
+        file.write(f'<a href="https://github.com/umjiwan/TIL/blob/main/post/{set_post_name}">{title}</a>\
                          `{date}`\
                         <br>\n\
                     ')
