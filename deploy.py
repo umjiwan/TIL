@@ -3,7 +3,9 @@
 from audioop import reverse
 import os
 
-start = "# 유엘 개발일지 - TIL\n`email`: ulhangry@gmail.com\n"
+start = "# 유엘 개발일지 - TIL\n\
+`email`: ulhangr\y@gmail.com\n\
+### 배포\n```\npython deploy.py \n```"
 
 with open("README.md", "w") as file:
     file.write(start)
