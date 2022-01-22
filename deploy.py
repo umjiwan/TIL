@@ -1,7 +1,7 @@
 import os
 
 start = "# 유엘 개발일지 - TIL\n\
-`email`: ulhangr\y@gmail.com\n\
+`email`: ulhangry@gmail.com\n\
 ### 배포\n```\npython deploy.py \n```"
 
 with open("README.md", "w") as file:
