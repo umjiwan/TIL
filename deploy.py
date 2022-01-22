@@ -41,13 +41,13 @@ before_year = ""
 with open("README.md", "a") as file:
     for set_post_name in set_post_name_list:
         title = set_post_name[11:-3].replace("-", " ")
-        date  = set_post_name[:10].replace("-", ". ")
+        date  = set_post_name[5:10].replace("-", ". ")
         if before_year != set_post_name[:4]:
             before_year = set_post_name[:4]
             file.write(f"\n## {before_year}<br>\n")
 
         file.write(f'<a href="https://github.com/umjiwan/TIL/blob/main/post/{set_post_name}">{title}</a>\
-                         - {date}\
+                         - <i>{date}</i>\
                         <br>\n\
                     ')
 
