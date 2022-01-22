@@ -1,6 +1,9 @@
 # 유엘 개발일지 - TIL
-`email`: ulhangry@gmail.com
-
+`email`: ulhangr\y@gmail.com
+### 배포
+```
+python deploy.py 
+```
 ## 2024<br>
 <a href="https://github.com/umjiwan/TIL/blob/main/post/2024-02-01-hello.md">hello</a>                         - <i>02. 01</i>                        <br>
                     
